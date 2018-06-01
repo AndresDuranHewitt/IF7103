@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Travelix</title>
+    <title>Proyecto 2 IF-7103</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Travelix Project">
@@ -76,9 +76,9 @@
 
                         <div class="search_tabs_container">
                             <div class="search_tabs d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
-                                <div class="search_tab active d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="@Url.Content("~/Content/images/suitcase.png")" alt=""><span>home</span></div>
-                                <div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="@Url.Content("~/Content/images/bus.png")" alt="">listados</div>
-                                <div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="@Url.Content("~/Content/images/search_1.png")" alt="">búsqueda avanzada</div>
+                                <div class="search_tab active d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="@Url.Content("~/Content/images/suitcase.png")" alt=""><span>@Html.ActionLink("Home", "index", "Home")</span></div>
+                                <div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="@Url.Content("~/Content/images/bus.png")" alt="">Listados</div>
+                                <div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="@Url.Content("~/Content/images/search_1.png")" alt="">@Html.ActionLink("Búsqueda", "Search", "Search")</div>
                                 <div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><img src="@Url.Content("~/Content/images/island.png")" alt="">Listados personalizados</div>
                             </div>
                         </div>

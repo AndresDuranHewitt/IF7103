@@ -149,6 +149,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -248,6 +249,7 @@
     <Content Include="Content\images\sailboat.png" />
     <Content Include="Content\images\search.png" />
     <Content Include="Content\images\search.svg" />
+    <Content Include="Content\images\search_1.png" />
     <Content Include="Content\images\single_background.jpg" />
     <Content Include="Content\images\stats_1.png" />
     <Content Include="Content\images\stats_2.png" />
@@ -387,7 +389,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\AdvancedSearch.cshtml" />
+    <Content Include="Views\Search\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

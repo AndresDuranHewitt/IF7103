@@ -748,7 +748,7 @@ section
 .home
 {
 	width: 100%;
-	height: 100vh;
+	height: 70vh;
 }
 
 
@@ -934,6 +934,7 @@ section
 .search
 {
 	width: 100%;
+    padding: 10px;
 	z-index: 10;
 }
 .search_tabs_container
@@ -2151,4 +2152,12 @@ section
 .footer_nav_item a:hover
 {
 	color: #FFFFFF;
+}
+
+a {
+    color: black;
+}
+
+.black_text {
+    color: black;
 }
