@@ -34,7 +34,6 @@
         </div>
 
         <!-- Home -->
-        @RenderBody()
         <div class="home">
 
             <!-- Home Slider -->
@@ -88,6 +87,17 @@
                 </div>
             </div>
         </div>
+
+        <!--
+            Contenido aquí    
+        -->
+
+        @RenderSection("body", false)
+        @RenderBody()
+        <!--
+            Fin de contenido aquí
+        -->
+
 
         <!-- Copyright -->
 
